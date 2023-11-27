@@ -8,6 +8,13 @@ $smallMobileW: 480px;
 $bigScreenW: 1600px;
 $leftWidth: 220px;
 
+@font-face {
+  font-family: 'IBMPlexSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 *:before,
 *:after {
@@ -15,8 +22,8 @@ $leftWidth: 220px;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-family: "IBMPlexSansKR-Regular", sans-serif;
+  font-size: 18px;
   line-height: 1.2em;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -164,7 +171,7 @@ main {
 
     a {
       display: block;
-      font-family: 'Merriweather';
+      font-family: 'IBMPlexSansKR-Regular';
       text-align: center;
       padding: 1rem 0;
       text-decoration: none;
@@ -243,8 +250,8 @@ main {
   padding-left: 30px;
 }
 .post {
-  font-family: "Merriweather", sans-serif;
-  font-weight: 300;
+  font-family: "IBMPlexSansKR-Regular", sans-serif;
+  font-weight: 200;
   color: #222;
   line-height: 1.9em;
   p {

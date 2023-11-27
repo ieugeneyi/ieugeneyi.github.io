@@ -1,5 +1,5 @@
-title: Eugene Yi Tech-log
-author: Euegene Yi
+title: Eugeneyi Tech-log
+author: Euegeneyi
 email: ieugeneyi@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -12,14 +12,14 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Eugene Yi
+  name: Eugeneyi
   tagline: Developer.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
-  html_lang: "kr" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
+  html_lang: "ko" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   condensed_mobile:
     #- home
     - page
@@ -38,7 +38,7 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    email: ieugeneyi
+    email: ieugeneyi@gmail.com
 
     # Mastodon instances
     # mastodon:
